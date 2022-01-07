@@ -1,0 +1,686 @@
+[15:27:55] [main/INFO]: ModLauncher running: args [--username, icyfiremi, --version, RealLife Craft, --gameDir, C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft, --assetsDir, C:\Users\admin\AppData\Roaming\.minecraft\assets, --assetIndex, 1.16, --uuid, d3bb4a57-2706-11eb-b660-d45d64bce613, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 925, --height, 530, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.22, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[15:27:55] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[15:27:55] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[15:27:57] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[15:27:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/admin/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[15:28:05] [main/INFO]: Launching target 'fmlclient' with arguments [--version, RealLife Craft, --gameDir, C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft, --assetsDir, C:\Users\admin\AppData\Roaming\.minecraft\assets, --uuid, d3bb4a57-2706-11eb-b660-d45d64bce613, --username, icyfiremi, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 925, --height, 530]
+[15:28:42] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:28:44] [main/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at net.minecraft.client.Minecraft.func_244735_a(Minecraft.java:551) [?:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:383) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.2.22.jar:36.2]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$466/318288344.call(Unknown Source) [forge-1.16.5-36.2.22.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[15:28:44] [main/INFO]: Setting user: icyfiremi
+[15:28:45] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[15:28:48] [modloading-worker-1/INFO]: Constructing Mod: Spartan Weaponry
+[15:28:48] [modloading-worker-1/INFO]: Initialising API! Version: 5
+[15:28:49] [modloading-worker-0/INFO]: Initializing Update Checker...
+[15:28:50] [ Iron Furnaces Update Checker/INFO]: Starting Update Check...
+[15:28:50] [modloading-worker-0/INFO]: Forge mod loading, version 36.2.22, for MC 1.16.5 with MCP 20210115.111550
+[15:28:50] [modloading-worker-0/INFO]: MinecraftForge v36.2.22 Initialized
+[15:28:50] [modloading-worker-0/INFO]: I tried to punch tree. It didn't work, my hands are now covered in blood and splinters. Need to try something else ...
+[15:28:50] [modloading-worker-1/INFO]: Constructing Mod: Spartan Shields
+[15:28:51] [ Iron Furnaces Update Checker/INFO]: Update Check done!
+[15:28:51] [ Iron Furnaces Update Checker/INFO]: Iron Furnaces is up to date!
+[15:28:56] [main/INFO]: Registering items...
+[15:28:56] [main/INFO]: Items Registered!
+[15:28:56] [main/INFO]: Registering Items
+[15:28:56] [main/INFO]: Registered Items successfully!
+[15:28:57] [main/INFO]: Registering Enchantments
+[15:28:57] [main/INFO]: Registered Enchantments successfully!
+[15:28:57] [main/INFO]: Registering Entities
+[15:28:57] [main/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `poison`, expected `firstaid`. This could be a intended override, but in most cases indicates a broken mod.
+[15:28:57] [main/INFO]: Don't worry, the minecraft poison override IS intended.
+[15:29:03] [main/INFO]: Narrator library for x64 successfully loaded
+[15:29:03] [main/INFO]: Reloading ResourceManager: Default, Mod Resources
+[15:29:12] [modloading-worker-0/INFO]: Loading config spartanshields-common.toml
+[15:29:18] [Worker-Main-6/INFO]: Adding Tower Shield textures to Block Texture Atlas!
+[15:29:20] [Worker-Main-8/INFO]: Setting up Spartan Weaponry!
+[15:29:20] [Worker-Main-9/INFO]: firstaid starting...
+[15:29:20] [Worker-Main-5/INFO]: Setup
+[15:29:20] [Worker-Main-4/INFO]: Setting up Spartan Shields!
+[15:29:21] [Forge Version Check/INFO]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
+[15:29:22] [Forge Version Check/INFO]: [obfuscate] Found status: BETA Current: 0.6.2 Target: 0.6.2
+[15:29:22] [Forge Version Check/INFO]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.16.5
+[15:29:23] [Forge Version Check/INFO]: [crafttweaker] Found status: BETA Current: 7.1.2.481 Target: 7.1.2.481
+[15:29:23] [Forge Version Check/INFO]: [fallingtree] Starting version check at https://raw.githubusercontent.com/RakSrinaNa/FallingTree/1.16.5/update.json
+[15:29:23] [Forge Version Check/INFO]: [fallingtree] Found status: UP_TO_DATE Current: 2.11.5 Target: null
+[15:29:23] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15:29:25] [Forge Version Check/INFO]: [forge] Found status: AHEAD Current: 36.2.22 Target: null
+[15:29:27] [Worker-Main-7/INFO]: CraftTweaker has loaded successfully!
+[15:29:27] [Worker-Main-6/INFO]: Setting up Client for Spartan Weaponry!
+[15:29:28] [Worker-Main-6/INFO]: CraftTweaker client has loaded successfully!
+[15:29:28] [Worker-Main-4/INFO]: Setting up Client for Spartan Shields!
+[15:29:34] [main/INFO]: OpenAL initialized.
+[15:29:34] [main/INFO]: Sound engine started
+[15:29:35] [main/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[15:29:35] [main/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:29:35] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[15:29:35] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:29:35] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:29:35] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:29:35] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:29:35] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:29:42] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:29:42] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:29:42] [main/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:29:44] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[15:30:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:30:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:30:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:30:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:30:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:30:43] [main/INFO]: Reloading ResourceManager: Default, SereneSeasons-1.16.5-4.0.1.122-universal.jar, ToughAsNails-1.16.5-4.0.1.23-universal.jar, obfuscate-0.6.2-1.16.3.jar, SpartanWeaponry-1.16.4-2.1.0-beta-4.jar, ironfurnaces-1.16.5-2.7.7.jar, jei-1.16.5-7.7.1.138.jar, rereskillable-1.16.5-1.3.6.jar, CraftTweaker-1.16.5-7.1.2.481.jar, FallingTree-1.16.5-2.11.5.jar, firstaid-1.9.7.jar, forge-1.16.5-36.2.22-universal.jar, notreepunching-forge-1.16.5-4.2.3.jar, Aquaculture-1.16.5-2.1.21.jar, SpartanShields-1.16.5-2.1.2.jar, diet-forge-1.16.5-1.0.1.1.jar, ironchest-1.16.5-11.2.21.jar, comforts-forge-1.16.5-4.0.1.3.jar
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:chests/iron_silver_chest as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:warped_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:upgrades/copper_to_iron_chest_upgrade as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:stone_sword as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:chests/silver_diamond_chest as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:jungle_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:wooden_shovel as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:crimson_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:chests/vanilla_copper_chest as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:birch_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:wooden_hoe as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:stone_pickaxe as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:wooden_axe as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:stone_shovel as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:wooden_sword as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:dark_oak_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:stick as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:stone_axe as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:upgrades/silver_to_gold_chest_upgrade as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:chests/copper_iron_chest as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:oak_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:flower_pot as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:wooden_pickaxe as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:chests/silver_gold_chest as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:upgrades/copper_to_silver_chest_upgrade as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:acacia_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:spruce_planks as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:chests/copper_silver_chest as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:brick as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe ironchest:upgrades/wood_to_copper_chest_upgrade as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:stone_hoe as it's serializer returned null
+[15:30:45] [main/INFO]: Skipping loading recipe minecraft:campfire as it's serializer returned null
+[15:30:45] [main/INFO]: Loaded 8 recipes
+[15:30:46] [main/INFO]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[15:30:46] [main/INFO]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[15:30:47] [main/INFO]: Loaded 1187 advancements
+[15:30:47] [main/INFO]: CraftTweaker reload starting!
+[15:30:47] [main/INFO]: CraftTweaker reload complete!
+[15:30:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:30:49] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[15:30:49] [Server thread/INFO]: Generating keypair
+[15:30:49] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\toughasnails-server.toml is not correct. Correcting
+[15:30:49] [Server thread/WARN]: Incorrect key toggles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key toggles.enable_thirst was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key toggles.enable_hand_drinking was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\forge-server.toml is not correct. Correcting
+[15:30:49] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\firstaid-server.toml is not correct. Correcting
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthHead was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthLeft_Arm was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthLeft_Leg was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthLeft_Foot was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthBody was corrected from null to its default, 6. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthRight_Arm was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthRight_Leg was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.maxHealthRight_Foot was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.causeDeathHead was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key Damage System.causeDeathBody was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.multiplierHead was corrected from null to its default, 6.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.multiplierChest was corrected from null to its default, 2.5. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.multiplierLegs was corrected from null to its default, 3.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.multiplierFeet was corrected from null to its default, 6.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.offsetHead was corrected from null to its default, 1.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.offsetChest was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.offsetLegs was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Armor.offsetFeet was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.multiplierHead was corrected from null to its default, 4.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.multiplierChest was corrected from null to its default, 3.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.multiplierLegs was corrected from null to its default, 3.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.multiplierFeet was corrected from null to its default, 3.5. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.offsetHead was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.offsetChest was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.offsetLegs was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Toughness.offsetFeet was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.bandage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.bandage.totalsHeals was corrected from null to its default, 4. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.bandage.secondsPerHeal was corrected from null to its default, 18. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.bandage.applyTime was corrected from null to its default, 2500. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.plaster was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.plaster.totalsHeals was corrected from null to its default, 2. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.plaster.secondsPerHeal was corrected from null to its default, 22. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.Internal Healing.plaster.applyTime was corrected from null to its default, 3000. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.External Healing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.External Healing.allowNaturalRegeneration was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.External Healing.allowOtherHealingItems was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.External Healing.sleepHealPercentage was corrected from null to its default, 0.07. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.External Healing.otherRegenMultiplier was corrected from null to its default, 0.75. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.External Healing.naturalRegenMultiplier was corrected from null to its default, 0.5. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.misc.scaleMaxHealth was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.misc.capMaxHealth was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.misc.vanillaHealthCalculation was corrected from null to its default, AVERAGE_ALL. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.misc.useFriendlyRandomDistribution was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key Locational Armor.misc.armorEnchantmentMode was corrected from null to its default, LOCAL_ENCHANTMENTS. 
+[15:30:49] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\notreepunching-server.toml is not correct. Correcting
+[15:30:49] [Server thread/WARN]: Incorrect key noMiningWithoutCorrectTool was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key noBlockDropsWithoutCorrectTool was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key doInstantBreakBlocksRequireTool was corrected from null to its default, false. 
+[15:30:49] [Server thread/WARN]: Incorrect key doInstantBreakBlocksDropWithoutCorrectTool was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key doInstantBreakBlocksDamageKnives was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Incorrect key flintKnappingConsumeChance was corrected from null to its default, 0.4. 
+[15:30:49] [Server thread/WARN]: Incorrect key flintKnappingSuccessChance was corrected from null to its default, 0.7. 
+[15:30:49] [Server thread/WARN]: Incorrect key fireStarterFireStartChance was corrected from null to its default, 0.3. 
+[15:30:49] [Server thread/WARN]: Incorrect key largeVesselKeepsContentsWhenBroken was corrected from null to its default, true. 
+[15:30:49] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\diet-server.toml is not correct. Correcting
+[15:30:49] [Server thread/WARN]: Incorrect key death_penalty was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key death_penalty.deathPenaltyMin was corrected from null to its default, 0.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key death_penalty.deathPenaltyLoss was corrected from null to its default, 1.0. 
+[15:30:49] [Server thread/WARN]: Incorrect key death_penalty.deathPenaltyMethod was corrected from null to its default, AMOUNT. 
+[15:30:49] [Server thread/WARN]: Incorrect key calculation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key calculation.gainPenaltyPerGroup was corrected from null to its default, 0.15000000596046448. 
+[15:30:49] [Server thread/WARN]: Incorrect key calculation.decayPenaltyPerGroup was corrected from null to its default, 0.15000000596046448. 
+[15:30:49] [Server thread/WARN]: Incorrect key calculation.foodOverrides was corrected from null to its default, []. 
+[15:30:49] [Server thread/WARN]: Incorrect key management was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:49] [Server thread/WARN]: Incorrect key management.hideTooltipsUntilEaten was corrected from null to its default, false. 
+[15:30:49] [Server thread/INFO]: Loading default config file from path C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\defaultconfigs\diet-groups.toml
+[15:30:49] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\diet-groups.toml is not correct. Correcting
+[15:30:50] [Server thread/INFO]: Loading default config file from path C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\defaultconfigs\diet-effects.toml
+[15:30:50] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\diet-effects.toml is not correct. Correcting
+[15:30:50] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\comforts-server.toml is not correct. Correcting
+[15:30:50] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.autoUse was corrected from null to its default, true. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.wellRested was corrected from null to its default, false. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.sleepyFactor was corrected from null to its default, 2.0. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.nightHammocks was corrected from null to its default, false. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.sleepingBagBreakage was corrected from null to its default, 0.0. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.sleepingBagDebuffs was corrected from null to its default, []. 
+[15:30:50] [Server thread/WARN]: Incorrect key server.insulatedSleepingBag was corrected from null to its default, false. 
+[15:30:50] [Server thread/WARN]: Configuration file C:\Users\admin\AppData\Roaming\.minecraft\versions\RealLife Craft\saves\World\serverconfig\jei-server.toml is not correct. Correcting
+[15:30:50] [Server thread/WARN]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15:30:50] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[15:30:50] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[15:30:50] [Server thread/WARN]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[15:30:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:30:58] [main/INFO]: Preparing spawn area: 0%
+[15:30:58] [main/INFO]: Preparing spawn area: 0%
+[15:30:59] [main/INFO]: Preparing spawn area: 0%
+[15:30:59] [main/INFO]: Preparing spawn area: 0%
+[15:31:00] [main/INFO]: Preparing spawn area: 0%
+[15:31:00] [main/INFO]: Preparing spawn area: 0%
+[15:31:01] [main/INFO]: Preparing spawn area: 0%
+[15:31:01] [main/INFO]: Preparing spawn area: 1%
+[15:31:02] [main/INFO]: Preparing spawn area: 1%
+[15:31:02] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 1%
+[15:31:06] [main/INFO]: Preparing spawn area: 4%
+[15:31:07] [main/INFO]: Preparing spawn area: 4%
+[15:31:07] [main/INFO]: Preparing spawn area: 4%
+[15:31:08] [main/INFO]: Preparing spawn area: 4%
+[15:31:08] [main/INFO]: Preparing spawn area: 4%
+[15:31:09] [main/INFO]: Preparing spawn area: 6%
+[15:31:09] [main/INFO]: Preparing spawn area: 6%
+[15:31:10] [main/INFO]: Preparing spawn area: 6%
+[15:31:10] [main/INFO]: Preparing spawn area: 6%
+[15:31:11] [main/INFO]: Preparing spawn area: 10%
+[15:31:11] [main/INFO]: Preparing spawn area: 10%
+[15:31:12] [main/INFO]: Preparing spawn area: 10%
+[15:31:12] [main/INFO]: Preparing spawn area: 10%
+[15:31:13] [main/INFO]: Preparing spawn area: 10%
+[15:31:13] [main/INFO]: Preparing spawn area: 15%
+[15:31:14] [main/INFO]: Preparing spawn area: 15%
+[15:31:14] [main/INFO]: Preparing spawn area: 15%
+[15:31:15] [main/INFO]: Preparing spawn area: 15%
+[15:31:15] [main/INFO]: Preparing spawn area: 15%
+[15:31:16] [main/INFO]: Preparing spawn area: 17%
+[15:31:16] [main/INFO]: Preparing spawn area: 17%
+[15:31:17] [main/INFO]: Preparing spawn area: 17%
+[15:31:17] [main/INFO]: Preparing spawn area: 17%
+[15:31:18] [main/INFO]: Preparing spawn area: 17%
+[15:31:18] [main/INFO]: Preparing spawn area: 23%
+[15:31:19] [main/INFO]: Preparing spawn area: 23%
+[15:31:19] [main/INFO]: Preparing spawn area: 23%
+[15:31:20] [main/INFO]: Preparing spawn area: 25%
+[15:31:20] [main/INFO]: Preparing spawn area: 25%
+[15:31:21] [main/INFO]: Preparing spawn area: 27%
+[15:31:21] [main/INFO]: Preparing spawn area: 27%
+[15:31:22] [main/INFO]: Preparing spawn area: 27%
+[15:31:22] [main/INFO]: Preparing spawn area: 27%
+[15:31:23] [main/INFO]: Preparing spawn area: 27%
+[15:31:23] [main/INFO]: Preparing spawn area: 33%
+[15:31:24] [main/INFO]: Preparing spawn area: 33%
+[15:31:24] [main/INFO]: Preparing spawn area: 33%
+[15:31:25] [main/INFO]: Preparing spawn area: 33%
+[15:31:25] [main/INFO]: Preparing spawn area: 36%
+[15:31:26] [main/INFO]: Preparing spawn area: 36%
+[15:31:26] [main/INFO]: Preparing spawn area: 36%
+[15:31:27] [main/INFO]: Preparing spawn area: 42%
+[15:31:27] [main/INFO]: Preparing spawn area: 43%
+[15:31:28] [main/INFO]: Preparing spawn area: 45%
+[15:31:29] [main/INFO]: Preparing spawn area: 46%
+[15:31:29] [main/INFO]: Preparing spawn area: 46%
+[15:31:31] [main/INFO]: Preparing spawn area: 49%
+[15:31:31] [main/INFO]: Preparing spawn area: 49%
+[15:31:31] [main/INFO]: Preparing spawn area: 49%
+[15:31:31] [main/INFO]: Preparing spawn area: 56%
+[15:31:32] [main/INFO]: Preparing spawn area: 56%
+[15:31:32] [main/INFO]: Preparing spawn area: 56%
+[15:31:32] [main/INFO]: Preparing spawn area: 61%
+[15:31:34] [main/INFO]: Preparing spawn area: 61%
+[15:31:34] [main/INFO]: Preparing spawn area: 61%
+[15:31:34] [main/INFO]: Preparing spawn area: 66%
+[15:31:34] [main/INFO]: Preparing spawn area: 66%
+[15:31:35] [main/INFO]: Preparing spawn area: 69%
+[15:31:35] [main/INFO]: Preparing spawn area: 69%
+[15:31:37] [main/INFO]: Preparing spawn area: 72%
+[15:31:37] [main/INFO]: Preparing spawn area: 72%
+[15:31:37] [main/INFO]: Preparing spawn area: 72%
+[15:31:38] [main/INFO]: Preparing spawn area: 80%
+[15:31:38] [main/INFO]: Preparing spawn area: 80%
+[15:31:39] [main/INFO]: Preparing spawn area: 83%
+[15:31:39] [main/INFO]: Preparing spawn area: 83%
+[15:31:39] [main/INFO]: Preparing spawn area: 87%
+[15:31:41] [main/INFO]: Preparing spawn area: 88%
+[15:31:41] [main/INFO]: Preparing spawn area: 88%
+[15:31:41] [main/INFO]: Preparing spawn area: 88%
+[15:31:42] [main/INFO]: Preparing spawn area: 92%
+[15:31:42] [main/INFO]: Preparing spawn area: 92%
+[15:31:42] [main/INFO]: Preparing spawn area: 93%
+[15:31:42] [Server thread/INFO]: Starting up Server for Spartan Weaponry!
+[15:31:42] [Server thread/INFO]: Generating diet values...
+[15:31:42] [Server thread/INFO]: Finding ungrouped food items...
+[15:31:42] [Server thread/INFO]: Found 15 ungrouped food items
+[15:31:42] [Server thread/INFO]: Finding recipes...
+[15:31:43] [main/INFO]: Time elapsed: 44739 ms
+[15:31:43] [Server thread/INFO]: Found 32 recipes to process
+[15:31:43] [Server thread/INFO]: Processing items...
+[15:31:43] [Server thread/INFO]: Processed 34 items
+[15:31:43] [Server thread/INFO]: Generating diet values took 82.99 ms
+[15:31:43] [Server thread/INFO]: Changing view distance to 2, from 10
+[15:31:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2162ms or 43 ticks behind
+[15:32:03] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[15:32:03] [Server thread/INFO]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@39eb9a06
+[15:32:03] [Server thread/INFO]: icyfiremi[local:E:c584b2d5] logged in with entity id 337 at (-219.5, 70.0, -236.5)
+[15:32:04] [Server thread/INFO]: icyfiremi joined the game
+[15:32:05] [main/WARN]: Unknown recipe category: toughasnails:water_purifying/toughasnails:purified_water_canteen
+[15:32:05] [main/WARN]: Unknown recipe category: toughasnails:water_purifying/toughasnails:purified_water_bottle
+[15:32:05] [main/WARN]: Unknown recipe category: toughasnails:water_purifying/toughasnails:water_canteen
+[15:32:05] [main/WARN]: Unknown recipe category: toughasnails:water_purifying/toughasnails:water_bottle
+[15:32:06] [main/INFO]: Starting JEI...
+[15:32:06] [main/INFO]: JEI Plugin is Registering subtypes
+[15:32:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2686ms or 53 ticks behind
+[15:32:06] [Server thread/INFO]: Saving and pausing game...
+[15:32:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:32:07] [main/INFO]: Building ingredient list...
+[15:32:07] [main/INFO]: Building ingredient list took 11.11 ms
+[15:32:07] [main/INFO]: Building ingredient filter...
+[15:32:08] [main/INFO]: Building ingredient filter took 1.805 s
+[15:32:08] [main/INFO]: Building bookmarks...
+[15:32:08] [main/INFO]: Building bookmarks took 2.420 ms
+[15:32:08] [main/INFO]: Building recipe registry...
+[15:32:09] [main/INFO]: Building recipe registry took 650.6 ms
+[15:32:09] [main/INFO]: Building runtime...
+[15:32:09] [main/INFO]: Building runtime took 222.0 ms
+[15:32:09] [main/INFO]: Starting JEI took 3.970 s
+[15:32:10] [main/INFO]: Received remote damage model
+[15:32:10] [main/INFO]: [CHAT] [First Aid] Press h for the tutorial
+[15:32:10] [main/INFO]: Loaded 0 advancements
+[15:32:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:32:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:32:16] [Server thread/INFO]: Saving and pausing game...
+[15:32:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:32:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:32:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:32:31] [Server thread/INFO]: Saving and pausing game...
+[15:32:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:32:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:32:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:32:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2552ms or 51 ticks behind
+[15:32:35] [main/WARN]: Received passengers for unknown entity
+[15:32:35] [main/INFO]: Loaded 7 advancements
+[15:33:04] [main/INFO]: [CHAT] Item: §a<item:minecraft:air>§r
+[15:33:25] [main/INFO]: [CHAT] Install the "Configured" mod to access the in-game config
+[15:33:28] [Server thread/INFO]: Saving and pausing game...
+[15:33:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:33:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:33:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:33:38] [main/INFO]: Loaded 10 advancements
+[15:33:48] [Server thread/INFO]: Saving and pausing game...
+[15:33:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:33:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:34:41] [Server thread/INFO]: Saving and pausing game...
+[15:34:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:34:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:34:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:36:08] [main/WARN]: Unable to play empty soundEvent: aquaculture:fish_ambient
+[15:36:21] [main/INFO]: Loaded 11 advancements
+[15:36:22] [Server thread/INFO]: Saving and pausing game...
+[15:36:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:36:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:36:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:37:44] [main/INFO]: Loaded 12 advancements
+[15:38:02] [main/INFO]: Loaded 14 advancements
+[15:38:10] [Server thread/INFO]: icyfiremi has made the advancement [Acquire Hardware]
+[15:38:10] [main/INFO]: [CHAT] icyfiremi has made the advancement [Acquire Hardware]
+[15:38:10] [main/INFO]: Loaded 54 advancements
+[15:38:36] [Server thread/INFO]: [icyfiremi: Removed 3 items from player icyfiremi]
+[15:38:36] [main/INFO]: [CHAT] Removed 3 items from player icyfiremi
+[15:38:37] [Server thread/INFO]: Saving and pausing game...
+[15:38:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:38:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:38:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:38:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[15:38:48] [main/INFO]: [CHAT] §aInventory list generated! Check the crafttweaker.log file!§r
+[15:39:43] [main/INFO]: [CHAT] §aRecipe list generated! Check the crafttweaker.log file!§r
+[15:39:44] [Server thread/INFO]: Saving and pausing game...
+[15:39:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:39:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:39:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:39:55] [main/INFO]: [CHAT] Wrote examples to the 'examples' folder inside the scripts folder.
+[15:40:23] [Server thread/INFO]: [icyfiremi: Removed 45 items from player icyfiremi]
+[15:40:23] [main/INFO]: [CHAT] Removed 45 items from player icyfiremi
+[15:40:51] [Server thread/INFO]: icyfiremi has made the advancement [Dull Rocks]
+[15:40:51] [main/INFO]: [CHAT] icyfiremi has made the advancement [Dull Rocks]
+[15:40:51] [main/INFO]: Loaded 61 advancements
+[15:41:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[15:41:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[15:42:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[15:42:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3928ms or 78 ticks behind
+[15:43:18] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[15:43:18] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[15:44:06] [main/INFO]: Loaded 62 advancements
+[15:44:13] [main/INFO]: Loaded 63 advancements
+[15:44:47] [Server thread/INFO]: [icyfiremi: Gave 1 [Zombie Spawn Egg] to icyfiremi]
+[15:44:47] [main/INFO]: [CHAT] Gave 1 [Zombie Spawn Egg] to icyfiremi
+[15:45:35] [Server thread/INFO]: [icyfiremi: Set own game mode to Creative Mode]
+[15:45:35] [main/INFO]: [CHAT] Set own game mode to Creative Mode
+[15:45:49] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[15:45:49] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[15:46:07] [Server thread/INFO]: Saving and pausing game...
+[15:46:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:46:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:46:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:47:05] [Server thread/INFO]: Saving and pausing game...
+[15:47:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:47:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:47:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:47:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[15:47:56] [Server thread/INFO]: icyfiremi was slain by Zombie
+[15:47:56] [main/INFO]: [CHAT] icyfiremi was slain by Zombie
+[15:47:56] [main/INFO]: Loaded 77 advancements
+[15:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[15:48:07] [Server thread/INFO]: [icyfiremi: Set own game mode to Creative Mode]
+[15:48:07] [main/INFO]: [CHAT] Set own game mode to Creative Mode
+[15:48:11] [main/INFO]: Loaded 92 advancements
+[15:48:13] [Server thread/INFO]: icyfiremi has made the advancement [Sweet Dreams]
+[15:48:13] [main/INFO]: [CHAT] icyfiremi has made the advancement [Sweet Dreams]
+[15:48:13] [main/INFO]: Loaded 92 advancements
+[15:48:18] [Server thread/INFO]: Season time skipped by 6312 in minecraft:the_nether
+[15:48:18] [Server thread/INFO]: Season time skipped by 6312 in minecraft:the_end
+[15:48:18] [Server thread/INFO]: Season time skipped by 6312 in minecraft:overworld
+[15:48:43] [Server thread/INFO]: icyfiremi has made the advancement [A Bigger Blade]
+[15:48:43] [main/INFO]: [CHAT] icyfiremi has made the advancement [A Bigger Blade]
+[15:48:43] [main/INFO]: Loaded 95 advancements
+[15:48:44] [Server thread/INFO]: icyfiremi has made the advancement [En Garde!]
+[15:48:44] [main/INFO]: [CHAT] icyfiremi has made the advancement [En Garde!]
+[15:48:44] [main/INFO]: Loaded 98 advancements
+[15:49:01] [Server thread/INFO]: icyfiremi has made the advancement [Hammer Time!]
+[15:49:01] [main/INFO]: [CHAT] icyfiremi has made the advancement [Hammer Time!]
+[15:49:01] [main/INFO]: Loaded 100 advancements
+[15:49:13] [Server thread/INFO]: icyfiremi has made the advancement [An Assassin's Need]
+[15:49:13] [main/INFO]: [CHAT] icyfiremi has made the advancement [An Assassin's Need]
+[15:49:13] [main/INFO]: Loaded 104 advancements
+[15:49:15] [Server thread/INFO]: icyfiremi has made the advancement [Burying the Hatchet]
+[15:49:15] [main/INFO]: [CHAT] icyfiremi has made the advancement [Burying the Hatchet]
+[15:49:15] [main/INFO]: Loaded 104 advancements
+[15:49:18] [Server thread/INFO]: icyfiremi has made the advancement [Will it Come Back?]
+[15:49:18] [main/INFO]: [CHAT] icyfiremi has made the advancement [Will it Come Back?]
+[15:49:18] [main/INFO]: Loaded 105 advancements
+[15:49:32] [main/INFO]: Loaded 106 advancements
+[15:51:00] [Server thread/INFO]: [icyfiremi: Set the time to 13000]
+[15:51:00] [Server thread/INFO]: Season time skipped by 9751 in minecraft:overworld
+[15:51:00] [main/INFO]: [CHAT] Set the time to 13000
+[15:51:00] [Server thread/INFO]: Season time skipped by 9751 in minecraft:the_nether
+[15:51:00] [Server thread/INFO]: Season time skipped by 9751 in minecraft:the_end
+[15:51:01] [Server thread/INFO]: Saving and pausing game...
+[15:51:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:51:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:51:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:51:08] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[15:51:08] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[15:51:22] [main/INFO]: Loaded 106 advancements
+[15:51:34] [main/INFO]: Loaded 107 advancements
+[15:51:56] [Server thread/INFO]: icyfiremi has made the advancement [Monster Hunter]
+[15:51:56] [main/INFO]: [CHAT] icyfiremi has made the advancement [Monster Hunter]
+[15:51:56] [main/INFO]: Loaded 110 advancements
+[15:52:38] [Server thread/INFO]: icyfiremi was slain by Zombie
+[15:52:38] [main/INFO]: [CHAT] icyfiremi was slain by Zombie
+[15:52:46] [Server thread/INFO]: [icyfiremi: Set own game mode to Creative Mode]
+[15:52:46] [main/INFO]: [CHAT] Set own game mode to Creative Mode
+[15:53:08] [Server thread/INFO]: icyfiremi has made the advancement [...And My Axe!]
+[15:53:08] [main/INFO]: [CHAT] icyfiremi has made the advancement [...And My Axe!]
+[15:53:08] [main/INFO]: Loaded 111 advancements
+[15:54:05] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[15:54:05] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[15:54:16] [Server thread/INFO]: icyfiremi was shot by Skeleton
+[15:54:16] [main/INFO]: [CHAT] icyfiremi was shot by Skeleton
+[15:54:18] [Server thread/INFO]: Saving and pausing game...
+[15:54:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:54:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:54:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:54:22] [Server thread/INFO]: Saving and pausing game...
+[15:54:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:54:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:54:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[15:54:32] [Server thread/INFO]: [icyfiremi: Set own game mode to Creative Mode]
+[15:54:32] [main/INFO]: [CHAT] Set own game mode to Creative Mode
+[15:54:58] [Server thread/INFO]: Saving and pausing game...
+[15:54:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:55:03] [Server thread/INFO]: Saving and pausing game...
+[15:55:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[15:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[15:56:59] [Server thread/INFO]: icyfiremi has completed the challenge [Cover Me in Debris]
+[15:56:59] [main/INFO]: [CHAT] icyfiremi has completed the challenge [Cover Me in Debris]
+[15:56:59] [main/INFO]: Loaded 114 advancements
+[15:57:26] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[15:57:26] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[15:57:30] [main/INFO]: Loaded 126 advancements
+[15:57:39] [Server thread/INFO]: icyfiremi fell from a high place
+[15:57:39] [main/INFO]: [CHAT] icyfiremi fell from a high place
+[15:57:41] [main/FATAL]: Error executing task on Client
+java.lang.IllegalArgumentException: Player icyfiremi is missing a damage model!
+	at ichttt.mods.firstaid.common.util.CommonUtils.lambda$getDamageModel$1(CommonUtils.java:167) ~[?:1.9.7]
+	at ichttt.mods.firstaid.common.util.CommonUtils$$Lambda$7042/878180677.get(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.util.LazyOptional.orElseThrow(LazyOptional.java:296) ~[?:?]
+	at ichttt.mods.firstaid.common.util.CommonUtils.getDamageModel(CommonUtils.java:167) ~[?:1.9.7]
+	at ichttt.mods.firstaid.common.network.MessageAddHealth$Handler.lambda$onMessage$0(MessageAddHealth.java:57) ~[?:1.9.7]
+	at ichttt.mods.firstaid.common.network.MessageAddHealth$Handler$$Lambda$7755/1422359433.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:215) ~[?:?]
+	at ichttt.mods.firstaid.common.network.MessageAddHealth$Handler.onMessage(MessageAddHealth.java:55) ~[?:1.9.7]
+	at ichttt.mods.firstaid.FirstAid.lambda$init$12(FirstAid.java:141) ~[?:1.9.7]
+	at ichttt.mods.firstaid.FirstAid$$Lambda$4624/679633213.accept(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:128) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec$$Lambda$6982/646679758.accept(Unknown Source) ~[?:?]
+	at java.util.Optional.ifPresent(Optional.java:159) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:128) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:162) ~[?:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:80) ~[?:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel$$Lambda$2965/2135359921.accept(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2967/1174641185.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3076/2138793529.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:86) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:91) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks$$Lambda$6969/1021850024.apply(Unknown Source) ~[?:?]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:91) ~[?:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_147240_a(ClientPlayNetHandler.java:1904) ~[?:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.func_148833_a(SCustomPayloadPlayPacket.java:59) ~[?:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.func_148833_a(SCustomPayloadPlayPacket.java:11) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil$$Lambda$7030/1737006790.run(Unknown Source) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.2.22.jar:36.2]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$466/318288344.call(Unknown Source) [forge-1.16.5-36.2.22.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[15:57:47] [Server thread/INFO]: [icyfiremi: Set own game mode to Creative Mode]
+[15:57:47] [main/INFO]: [CHAT] Set own game mode to Creative Mode
+[15:58:37] [main/INFO]: [CHAT] icyfiremi died
+[15:58:45] [main/INFO]: [CHAT] Unknown or incomplete command, see below for error
+[15:58:45] [main/INFO]: [CHAT] ...g showfile<--[HERE]
+[15:58:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[15:59:05] [Server thread/INFO]: [icyfiremi: Applied effect Regeneration to icyfiremi]
+[15:59:05] [main/INFO]: [CHAT] Applied effect Regeneration to icyfiremi
+[15:59:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[15:59:27] [Server thread/INFO]: [icyfiremi: Applied effect Resistance to icyfiremi]
+[15:59:27] [main/INFO]: [CHAT] Applied effect Resistance to icyfiremi
+[16:00:37] [main/INFO]: Loaded 127 advancements
+[16:00:50] [Server thread/INFO]: [icyfiremi: Set the time to 13000]
+[16:00:50] [main/INFO]: [CHAT] Set the time to 13000
+[16:00:50] [Server thread/INFO]: Season time skipped by 12545 in minecraft:overworld
+[16:00:50] [Server thread/INFO]: Season time skipped by 12545 in minecraft:the_nether
+[16:00:50] [Server thread/INFO]: Season time skipped by 12545 in minecraft:the_end
+[16:01:19] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[16:01:19] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[16:01:36] [main/INFO]: Loaded 127 advancements
+[16:01:36] [main/INFO]: Loaded 132 advancements
+[16:01:41] [main/INFO]: Loaded 132 advancements
+[16:02:01] [Server thread/INFO]: icyfiremi has made the advancement [Not Today, Thank You]
+[16:02:01] [main/INFO]: [CHAT] icyfiremi has made the advancement [Not Today, Thank You]
+[16:02:01] [main/INFO]: Loaded 132 advancements
+[16:02:24] [Server thread/INFO]: Saving and pausing game...
+[16:02:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:02:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:02:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:03:43] [Server thread/INFO]: Saving and pausing game...
+[16:03:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:03:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:03:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:03:52] [Server thread/INFO]: Saving and pausing game...
+[16:03:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:03:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:03:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:04:15] [main/INFO]: Loaded 132 advancements
+[16:05:07] [Server thread/INFO]: Saving and pausing game...
+[16:05:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:05:10] [Server thread/INFO]: Changing view distance to 6, from 2
+[16:05:39] [main/INFO]: Loaded 132 advancements
+[16:06:08] [main/INFO]: Loaded 133 advancements
+[16:07:52] [main/INFO]: Loaded 134 advancements
+[16:08:10] [main/INFO]: Loaded 134 advancements
+[16:09:11] [Server thread/INFO]: Saving and pausing game...
+[16:09:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:09:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:09:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:25:13] [main/INFO]: Loaded 135 advancements
+[16:25:50] [Server thread/INFO]: [icyfiremi: Gave 1000 [Dirt] to icyfiremi]
+[16:25:50] [main/INFO]: [CHAT] Gave 1000 [Dirt] to icyfiremi
+[16:26:04] [Server thread/INFO]: [icyfiremi: Set the time to 13000]
+[16:26:04] [main/INFO]: [CHAT] Set the time to 13000
+[16:26:04] [Server thread/INFO]: Season time skipped by 14695 in minecraft:overworld
+[16:26:04] [Server thread/INFO]: Season time skipped by 14695 in minecraft:the_nether
+[16:26:04] [Server thread/INFO]: Season time skipped by 14695 in minecraft:the_end
+[16:27:56] [Server thread/INFO]: [icyfiremi: Set the weather to clear]
+[16:27:56] [main/INFO]: [CHAT] Set the weather to clear
+[16:28:47] [Server thread/INFO]: [icyfiremi: Set own game mode to Creative Mode]
+[16:28:47] [main/INFO]: [CHAT] Set own game mode to Creative Mode
+[16:29:30] [Server thread/INFO]: icyfiremi has made the advancement [Enchanter]
+[16:29:30] [main/INFO]: [CHAT] icyfiremi has made the advancement [Enchanter]
+[16:29:30] [main/INFO]: Loaded 136 advancements
+[16:29:58] [main/INFO]: Loaded 137 advancements
+[16:30:03] [Server thread/INFO]: [icyfiremi: Set own game mode to Survival Mode]
+[16:30:03] [main/INFO]: [CHAT] Set own game mode to Survival Mode
+[16:31:41] [Server thread/INFO]: [icyfiremi: Gave 2 [Glass Bottle] to icyfiremi]
+[16:31:41] [main/INFO]: [CHAT] Gave 2 [Glass Bottle] to icyfiremi
+[16:32:30] [Server thread/INFO]: [icyfiremi: Gave 1 [Atlantic Cod] to icyfiremi]
+[16:32:30] [main/INFO]: [CHAT] Gave 1 [Atlantic Cod] to icyfiremi
+[16:33:55] [Server thread/INFO]: [icyfiremi: Gave 198 [Cooked Cod] to icyfiremi]
+[16:33:55] [main/INFO]: [CHAT] Gave 198 [Cooked Cod] to icyfiremi
+[16:34:03] [main/INFO]: Loaded 137 advancements
+[16:34:21] [Server thread/INFO]: [icyfiremi: Set the time to 13000]
+[16:34:21] [main/INFO]: [CHAT] Set the time to 13000
+[16:34:21] [Server thread/INFO]: Season time skipped by 14068 in minecraft:overworld
+[16:34:21] [Server thread/INFO]: Season time skipped by 14068 in minecraft:the_nether
+[16:34:21] [Server thread/INFO]: Season time skipped by 14068 in minecraft:the_end
+[16:36:38] [Server thread/INFO]: Saving and pausing game...
+[16:36:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:36:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:36:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:36:39] [Server thread/INFO]: icyfiremi lost connection: Disconnected
+[16:36:39] [Server thread/INFO]: icyfiremi left the game
+[16:36:39] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:36:39] [Server thread/INFO]: Stopping server
+[16:36:39] [Server thread/INFO]: Saving players
+[16:36:39] [Server thread/INFO]: Saving worlds
+[16:36:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[16:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[16:36:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[16:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:36:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[16:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[16:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:36:44] [main/INFO]: Stopping!

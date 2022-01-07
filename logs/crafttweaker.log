@@ -1,0 +1,18 @@
+[15:28:50.683][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[15:28:52.462][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'aquaculture' at version '1.16.5-2.1.21'
+'crafttweaker' at version '7.1.2.481'
+[15:28:54.005][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[15:29:24.437][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[15:29:27.740][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[15:30:47.424][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[15:30:47.752][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:minecraft:air>
+Inventory items
+
+Inventory list generated! Check the crafttweaker.log file!
+[15:39:42.956][DONE][SERVER][INFO] Dumping all recipes that output <item:firstaid:bandage>!
+Recipe type: '<recipetype:minecraft:crafting>'
+  craftingTable.addShaped("firstaid:bandage", <item:firstaid:bandage>, [[<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>], [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>], [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>]]);
+
+Recipe list generated! Check the crafttweaker.log file!

@@ -1,0 +1,414 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "additionalFiles": [
+    {
+      "sha1": "045d6edac8fe1b004e159c49704b5b729f551079",
+      "size": 9118806,
+      "path": "libraries/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+    },
+    {
+      "sha1": "bd96f726b89228b818f64e2edc635feda3fe2586",
+      "size": 11352644,
+      "path": "libraries/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg-bd96f726b89228b818f64e2edc635feda3fe2586.jar"
+    },
+    {
+      "sha1": "4aef4168f94d97bc73bf510213b2518942f931d1",
+      "size": 8428369,
+      "path": "libraries/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+    },
+    {
+      "sha1": "65b8836e582983fd770ddf1db68b07d58009bd0a",
+      "size": 4213746,
+      "path": "libraries/net/minecraftforge/forge/1.16.5-36.2.22/forge-1.16.5-36.2.22-client.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/forge/1.16.5-36.2.22/forge-1.16.5-36.2.22-client.jar"
+    },
+    {
+      "sha1": "9fe20d651ee47764b4494fd96914554d3c08c723",
+      "size": 2480605,
+      "path": "libraries/net/minecraftforge/forge/1.16.5-36.2.22/forge-1.16.5-36.2.22-universal.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/forge/1.16.5-36.2.22/forge-1.16.5-36.2.22-universal.jar"
+    }
+  ],
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": true,
+    "memory": 2761,
+    "id": -149300641493100,
+    "name": "RealLife Craft",
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 237664,
+          "name": "Iron Furnaces [FORGE]",
+          "version": {
+            "id": 3459501,
+            "name": "ironfurnaces-1.16.5-2.7.7",
+            "metadata": {
+              "sha1": "005ebd5c388a2c54d998d749aef672aeb97acd65",
+              "size": 493742,
+              "path": "mods/ironfurnaces-1.16.5-2.7.7.jar",
+              "url": "/mods/237664/3459501/ironfurnaces-1.16.5-2.7.7.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 364466,
+              "dependencyType": "optional"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 252239,
+          "name": "Spartan Shields",
+          "version": {
+            "id": 3292950,
+            "name": "1.16.5-2.1.2",
+            "metadata": {
+              "sha1": "a4b20b04ea3cf377f27103e68a4fc26386da86a3",
+              "size": 443517,
+              "path": "mods/SpartanShields-1.16.5-2.1.2.jar",
+              "url": "/mods/252239/3292950/SpartanShields-1.16.5-2.1.2.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 278141,
+          "name": "Spartan Weaponry",
+          "version": {
+            "id": 3291850,
+            "name": "1.16.4-2.1.0-beta-4",
+            "metadata": {
+              "sha1": "0103fdff3b03e282090d4cbdfa44771636cf8ced",
+              "size": 1201349,
+              "path": "mods/SpartanWeaponry-1.16.4-2.1.0-beta-4.jar",
+              "url": "/mods/278141/3291850/SpartanWeaponry-1.16.4-2.1.0-beta-4.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 309927,
+              "dependencyType": "optional"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 228756,
+          "name": "Iron Chests",
+          "version": {
+            "id": 3543538,
+            "name": "ironchest-1.16.5-11.2.21",
+            "metadata": {
+              "sha1": "59e263b8dd04ad2742def8b3773d5e2f6e1ba03c",
+              "size": 258298,
+              "path": "mods/ironchest-1.16.5-11.2.21.jar",
+              "url": "/mods/228756/3543538/ironchest-1.16.5-11.2.21.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 349559,
+          "name": "FallingTree (Forge&Fabric)",
+          "version": {
+            "id": 3349236,
+            "name": "FallingTree-1.16.5-2.11.5",
+            "metadata": {
+              "sha1": "b2b0ef1b28e6baddc0440533ec36bc2bc863fca5",
+              "size": 1155390,
+              "path": "mods/FallingTree-1.16.5-2.11.5.jar",
+              "url": "/mods/349559/3349236/FallingTree-1.16.5-2.11.5.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 308702,
+              "dependencyType": "optional"
+            },
+            {
+              "gameType": "mod",
+              "id": 348521,
+              "dependencyType": "optional"
+            },
+            {
+              "gameType": "mod",
+              "id": 306612,
+              "dependencyType": "optional"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 276951,
+          "name": "Comforts (Forge)",
+          "version": {
+            "id": 3438373,
+            "name": "comforts-forge-1.16.5-4.0.1.3",
+            "metadata": {
+              "sha1": "8bd4a7619f9701b831b627a38d0ff7d86852660c",
+              "size": 225523,
+              "path": "mods/comforts-forge-1.16.5-4.0.1.3.jar",
+              "url": "/mods/276951/3438373/comforts-forge-1.16.5-4.0.1.3.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960297699000,
+          "name": "Aquaculture-1.16.5-2.1.21",
+          "version": {
+            "id": -151960335716100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "766b46cf616f5c96eb33893fa99aba520d0758d9",
+              "size": 551025,
+              "path": "mods/Aquaculture-1.16.5-2.1.21.jar",
+              "url": "mods/Aquaculture-1.16.5-2.1.21.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960335980400,
+          "name": "CraftTweaker-1.16.5-7.1.2.481",
+          "version": {
+            "id": -151960385128700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ec96edf411c9f5ab3954cc849c5517735d5ef337",
+              "size": 2460452,
+              "path": "mods/CraftTweaker-1.16.5-7.1.2.481.jar",
+              "url": "mods/CraftTweaker-1.16.5-7.1.2.481.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960385185200,
+          "name": "diet-forge-1.16.5-1.0.1.1",
+          "version": {
+            "id": -151960408462400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5a638ce1eb7172770e88625377216fbf93e5ad59",
+              "size": 206093,
+              "path": "mods/diet-forge-1.16.5-1.0.1.1.jar",
+              "url": "mods/diet-forge-1.16.5-1.0.1.1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960408625100,
+          "name": "firstaid-1.9.7",
+          "version": {
+            "id": -151960432572500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8dcf49366a6caef726a84dabf95f8401e32cea87",
+              "size": 433759,
+              "path": "mods/firstaid-1.9.7.jar",
+              "url": "mods/firstaid-1.9.7.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960432606900,
+          "name": "jei-1.16.5-7.7.1.138",
+          "version": {
+            "id": -151960462240600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8f28338b7087f5cebc55508b47e9346cbe74bcb1",
+              "size": 826731,
+              "path": "mods/jei-1.16.5-7.7.1.138.jar",
+              "url": "mods/jei-1.16.5-7.7.1.138.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960462370700,
+          "name": "notreepunching-forge-1.16.5-4.2.3",
+          "version": {
+            "id": -151960577594000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "57fbd5157d7d637695e7f068f89920e54cae55ed",
+              "size": 439921,
+              "path": "mods/notreepunching-forge-1.16.5-4.2.3.jar",
+              "url": "mods/notreepunching-forge-1.16.5-4.2.3.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960577626400,
+          "name": "rereskillable-1.16.5-1.3.6",
+          "version": {
+            "id": -151960599635800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3fbd60dd9298ec2603a2e961a55804eadb18a1c9",
+              "size": 62315,
+              "path": "mods/rereskillable-1.16.5-1.3.6.jar",
+              "url": "mods/rereskillable-1.16.5-1.3.6.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960599691000,
+          "name": "SereneSeasons-1.16.5-4.0.1.122-universal",
+          "version": {
+            "id": -151960623158100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "fcb9b973ac53a5f618ddc92a8d78ed7384734f0e",
+              "size": 148101,
+              "path": "mods/SereneSeasons-1.16.5-4.0.1.122-universal.jar",
+              "url": "mods/SereneSeasons-1.16.5-4.0.1.122-universal.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -151960623202100,
+          "name": "ToughAsNails-1.16.5-4.0.1.23-universal",
+          "version": {
+            "id": -151960637186200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aa0f0c871b2c00697392e0b9a1d497c47287ed04",
+              "size": 133686,
+              "path": "mods/ToughAsNails-1.16.5-4.0.1.23-universal.jar",
+              "url": "mods/ToughAsNails-1.16.5-4.0.1.23-universal.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 289380,
+          "name": "Obfuscate",
+          "version": {
+            "id": 3336021,
+            "name": "0.6.2",
+            "metadata": {
+              "sha1": "03da9997f53e48c6598dc620367104c1f0873b65",
+              "size": 151170,
+              "path": "mods/obfuscate-0.6.2-1.16.3.jar",
+              "url": "/mods/289380/3336021/obfuscate-0.6.2-1.16.3.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 459701,
+              "dependencyType": "optional"
+            },
+            {
+              "gameType": "mod",
+              "id": 457570,
+              "dependencyType": "optional"
+            }
+          ]
+        },
+        {
+          "stateGameElement": "active",
+          "id": 74924,
+          "name": "Mantle",
+          "version": {
+            "id": 3551291,
+            "name": "1.6.147 for 1.16.5",
+            "metadata": {
+              "sha1": "54722fb8be9d7e57929dd3ae61f28a0efe9f2a0d",
+              "size": 777742,
+              "path": "mods/Mantle-1.16.5-1.6.147.jar",
+              "url": "/mods/74924/3551291/Mantle-1.16.5-1.6.147.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 74072,
+          "name": "Tinkers Construct",
+          "version": {
+            "id": 3551295,
+            "name": "Tinkers' Construct 3.3.0.308 for 1.16.5",
+            "metadata": {
+              "sha1": "58a035677953bf4a5ed9be0b6b1f1bb9cf620b4b",
+              "size": 9749355,
+              "path": "mods/TConstruct-1.16.5-3.3.0.308.jar",
+              "url": "/mods/74072/3551295/TConstruct-1.16.5-3.3.0.308.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 74924,
+              "dependencyType": "required"
+            }
+          ]
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [],
+      "shaderpacks": [],
+      "forgeVersion": "36.2.22",
+      "gameVersion": "1.16.5",
+      "id": -149300641570801,
+      "name": "1.0"
+    },
+    "userInstall": false,
+    "populateStatus": false
+  },
+  "source": "local_version_repo",
+  "jar": "1.16.5",
+  "skinVersion": false
+}
